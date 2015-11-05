@@ -1,0 +1,68 @@
+/*styles.css*/
+body {
+    background-color: blanchedalmond;
+    font-family: Calibri, Arial;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+h1, h2, h3, h4 {
+    color: maroon;
+}
+
+#DivContainer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+}
+
+/*#DivPicContainer {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    border: 2px solid silver;
+    background-color:darkgray;
+}*/
+
+#DivButtons {
+    text-align: center;
+    display:none;
+}
+
+/*#DivDevice {
+    color: black;
+    font-weight: bold;
+    text-align:center;
+}*/
+
+input[type=button] {
+    border: 4px solid black;
+    color: black;
+    background-color: silver;
+    font-size: 26px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+    input[type=button]:hover {
+        color: white;
+        background-color: black;
+    }
+
+    input[type=button]:active {
+        color: yellow;
+        background-color: black;
+    }
+
+.center {
+    text-align: center;
+}
+
+.message {
+    color: white;
+    font-weight: bold;
+}
